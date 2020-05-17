@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6.4125867mm"
+   height="6.235877mm"
+   viewBox="0 0 6.4125867 6.235877"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Icone déconnexion.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient183"
+       id="linearGradient185"
+       x1="-90.656586"
+       y1="177.00645"
+       x2="-31.934095"
+       y2="261.91705"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-333.295,-94.237256)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient183">
+      <stop
+         style="stop-color:#ffa000;stop-opacity:1;"
+         offset="0"
+         id="stop179" />
+      <stop
+         style="stop-color:#d8c6ae;stop-opacity:1"
+         offset="1"
+         id="stop181" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="475.40812"
+     inkscape:cy="64.165013"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="898"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(19.951731,-159.57445)">
+    <g
+       id="g1003"
+       transform="matrix(0.08253073,0,0,0.08595517,15.213404,152.64342)">
+      <g
+         id="g191">
+        <path
+           style="color:#b39361;fill:none;stroke:#d68600;stroke-width:4.26753044;stroke-linecap:square;stroke-linejoin:miter"
+           inkscape:connector-curvature="0"
+           d="m -364.20616,129.71204 12.80259,-12.80259 -12.80259,-12.8026"
+           id="path141" />
+        <path
+           style="color:#b39361;fill:none;stroke:#d68600;stroke-width:4.26753044;stroke-linecap:round;stroke-linejoin:miter"
+           inkscape:connector-curvature="0"
+           d="m -351.40357,116.90945 h -4.26753"
+           id="path145" />
+        <path
+           style="color:#b39361;fill:url(#linearGradient185);fill-opacity:1;stroke:#d68600;stroke-width:4.26753044;stroke-linecap:square;stroke-linejoin:miter"
+           inkscape:connector-curvature="0"
+           d="m -377.00875,82.769204 v 68.280486 h -46.94284 V 82.769204 Z"
+           id="path147" />
+        <path
+           style="color:#b39361;fill:none;stroke:#d68600;stroke-width:4.26753044;stroke-linecap:square;stroke-linejoin:miter"
+           inkscape:connector-curvature="0"
+           d="m -391.94511,116.90945 h 36.27401"
+           id="path143" />
+      </g>
+    </g>
+  </g>
+</svg>

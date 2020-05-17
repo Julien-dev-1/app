@@ -1,0 +1,333 @@
+  .login-content{
+    margin-top: -5%;
+    height: 45em;
+  }
+
+
+  .bold{
+    font-weight:bold;
+  }
+
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+
+  .container {
+    margin-top:-1%;
+    border-radius: 3px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 2px solid #b39361;
+    border-radius: 3px;
+  }
+.color-black{
+  color:black !important;
+}
+  input[type=password] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 2px solid #b39361;
+    border-radius: 3px;
+  }
+
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+
+  .btn {
+    background-color: #b39361;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight:bold;
+  }
+
+  .color-green{
+    color: #80db22 !important;
+    cursor: pointer;
+  }
+  .color-green:hover{
+    color: brown !important;
+  }
+  .btn:hover {
+    background-color: #80db22;
+  }
+
+  span.price {
+    float: right;
+    color: grey;
+  }
+
+  .form-container{
+    width: 30% !important;
+    background-color: white;
+    height: 42em;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    padding-top:6%;
+    z-index: 102;
+    position: absolute;
+  }
+  .SVG-hight-ligth{
+    position: absolute;
+    min-height: 50%;
+    left: 11%;
+    top: 25%;
+  }
+  .svg-higth-ligth{
+    top: 85%;
+    position: absolute;
+  }
+  ._from-less{
+    top: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: 7% 5% 2% 23%;
+  }
+  .align-text-rigth{
+    text-align:right;
+    cursor: pointer;
+  }
+  .link-over:hover{
+    color:#80db22 !important;
+  }
+  .font-position{
+    position: absolute;
+    z-index: 4;
+    right: 36%;
+    margin-top: 1%;
+    font-size: 19px;
+  }
+  .higth-light{
+    background:#b39361;
+    cursor: pointer;
+    margin-right: 5% !important;
+    right: 5%;
+    position: fixed;
+    top: 0.8em;
+    font-weight: bold;
+    opacity:0.4;
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .font-position{
+      right: 18% !important;
+      margin-top:3%;
+    }
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+    input[type=password],input[type=text],.btn {
+    width: 100%;
+    }
+    .login-content{
+    margin-top:-10% !important;
+    }
+    .form-container{
+    width: 100% !important;
+    }
+    .font-position{
+      right: 13%;
+      margin-top:3%;
+    }
+  }
+
+  .at-resp-share-element {
+      font-size: 0;
+      line-height: 0;
+  }
+  .at-resp-share-element .at-share-btn::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+  }
+  .at-share-btn::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+  }
+  element {
+      background-color: rgb(59, 89, 152);
+      border-radius: 6px;
+  }
+  .at-style-responsive .at-share-btn {
+      padding: 5px;
+  }
+  .at-resp-share-element .at-share-btn {
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      margin: 0 2px 5px;
+      padding: 0;
+      overflow: hidden;
+      line-height: 0;
+      text-decoration: none;
+      text-transform: none;
+      color: #fff;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      border: 0;
+      font-family: helvetica neue,helvetica,arial,sans-serif;
+      background-color: transparent;
+  }
+
+  .at-resp-share-element .at-share-btn::-moz-focus-inner {
+
+      border: 0;
+      padding: 0;
+
+  }
+  .at-share-btn::-moz-focus-inner {
+
+      border: 0;
+      padding: 0;
+
+  }
+  element {
+
+      background-color: rgb(59, 89, 152);
+      border-radius: 6px;
+
+  }
+  .at-style-responsive .at-share-btn {
+
+      padding: 5px;
+
+  }
+  .at-resp-share-element .at-share-btn {
+
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      margin: 0 2px 5px;
+      padding: 0;
+      overflow: hidden;
+      line-height: 0;
+      text-decoration: none;
+      text-transform: none;
+      color: #fff;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      border: 0;
+      font-family: helvetica neue,helvetica,arial,sans-serif;
+      background-color: transparent;
+
+  }
+  .post-header a {
+
+      display: block;
+      color: #545e6f;
+      transition: all .2s ease;
+
+  }
+  .at-icon-wrapper {
+      display: inline-block;
+      overflow: hidden;
+  }
+  .at-resp-share-element {
+      font-size: 0;
+      line-height: 0;
+  }
+  .at4-visually-hidden {
+      position: absolute;
+      clip: rect(1px,1px,1px,1px);
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+  }
+  .at-resp-share-element .at-share-btn {
+      line-height: 0;
+      text-transform: none;
+      color: #fff;
+      cursor: pointer;
+      font-family: helvetica neue,helvetica,arial,sans-serif;
+  }
+  .post-header a {
+      color: #545e6f;
+  }
+  .at4-visually-hidden {
+      position: absolute;
+      clip: rect(1px,1px,1px,1px);
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+  }
+  .at-svc-facebook{
+    width: 31.3%;
+    margin-right: 1%;
+    margin-left:0.1%;
+  }
+  .at-svc-twitter{
+    width: 31.3%;
+    margin-right: 1%;
+  }
+  .at-svc-whatsapp{
+    width: 31.3%;
+    margin-right: 1%;
+  }
+  .submit-login{
+      background-color:#bf8c37 !important;
+      font-weight: bold !important;
+      height: 3em;
+      color:white !important;
+      font-size:17px !important;
+  }
+  .submit-login:hover{
+    background-color: #80db22 !important;
+}
+input:focus{
+  border-color:#b39361 !important;
+  box-shadow: none !important;
+}
+.login-form{
+  font-weight:bold;
+  color:#b39361;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 19em;
+}
+label{
+  text-align: left !important;
+  color: black !important;
+}

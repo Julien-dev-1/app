@@ -1,0 +1,153 @@
+/* .bon-content{
+
+} */
+.pan-contain{
+  padding: 0 1% 0 1%;
+}
+.now-text{
+  padding:1%;
+  color:#5599ff;
+  font-size:16px;
+  font-weight: bold;
+}
+#categorie,#odd,#region,#statut{
+  font-weight:bold !important;
+}
+.flex-content1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 60%;
+  height: 6.5em;
+}
+._col-flex2{
+  width: 48%;
+  height: 5.5em !important;
+}
+.outerContent{
+  padding:0 0 1% 6%;
+}
+.categories-class{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 2px solid #b39361;
+  border-radius: 3px;
+}
+.text-el{
+  color: #b49563;
+  font-weight:bold !important;
+  margin-bottom: 0.5em !important;
+}
+.pl{
+  text-transform: uppercase;
+  color: #5599ff;
+  text-align:center;
+}
+.lg-k{
+  text-align:center;
+}
+.text-bonPlan{
+    padding: 2% 15% 0 15%;
+    height: 11em;
+}
+._flex-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 91.9em;
+  max-height: 39em;;
+  height: 20em auto;
+  overflow: hidden;
+}
+._eloquent{
+  margin-right: 1% !important;
+}
+@media screen and (max-width: 700px){
+  .flex-content1{
+    width:98%;
+  }
+  ._col-flex2{
+    width:48%;
+  }
+}
+.item-plan{
+    width: 17em;
+    height: 19.03em;
+    border: 1px solid #ccaf8e;
+    border-radius: 2%;
+    margin-bottom:2%;
+  }
+
+  .img-plan{
+    width: 16.78em;
+    height: 11em;
+    background-color: #ffe2e2;
+  }
+
+  .cat{
+    width: 7em;
+    height: 2.5em;
+    background-color: #5599ff;
+    border-radius: 3%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    font-weight:bold;
+    float:right;
+    margin-top: 7%;
+    margin-right: -1px;
+  }
+  .titre-plan{
+    text-align:center;
+    font-weight:bold;
+    height:1.5em;
+    width: 100%;
+    margin: 0.5em 0 0.5em 0;
+  }
+
+  .l-day{
+    width:100%;
+    height: 2.5em;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    font-weight:bold;
+    padding:0 0.5em 0 0.5em;
+    border-top: 1px solid #e2d6c3;
+    border-bottom: 1px solid #e2d6c3;
+  }
+  .l, .d{
+    width:6em;
+  }
+  .l{
+    text-align:right
+  }
+  .detailsPlan{
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    color: white !important;
+    cursor: pointer;
+    background-color: #5599ff;
+    display: block;
+  }
+  .detailsPlan:hover{
+    border: 2px solid white;
+    margin-top:-2px;
+    text-decoration: none;
+  }
+.font-1{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  color: rgb(51, 47, 81);
+  color: var(--gray-800);
+  line-height: 1.5;
+}
